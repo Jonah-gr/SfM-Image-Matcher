@@ -13,6 +13,7 @@ bin/
 *bin
 *.txt
 *.log.*
+!requirements.txt
 
 # C extensions
 *.so
