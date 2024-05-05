@@ -12,6 +12,7 @@ bin/
 *.ini
 *bin
 *.txt
+*.log.*
 
 # C extensions
 *.so
