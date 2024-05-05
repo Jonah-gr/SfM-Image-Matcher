@@ -8,7 +8,7 @@ __pycache__/
 lib/
 bin/
 *.jpg
-*.db
+*.db*
 *.ini
 *bin
 *.txt
