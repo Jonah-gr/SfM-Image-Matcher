@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# COLMAP
+*.bat
+lib/
+bin/
+*.jpg
+*.db
+*.ini
+*bin
+*.txt
+
 # C extensions
 *.so
 
