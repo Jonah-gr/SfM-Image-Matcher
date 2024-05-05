@@ -1,5 +1,7 @@
+import os
 import pandas as pd
 import numpy as np
+from src.config import SFM_PATH
 
 
 
@@ -23,7 +25,7 @@ def add_camera_position_column(df):
 
 
 def load_image_data():
-    with open('sfm_project/images.txt', 'r') as file:
+    with open(os.path.join(SFM_PATH, 'images.txt'), 'r') as file:
         lines = file.readlines()
 
     data = {

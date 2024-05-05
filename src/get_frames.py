@@ -1,11 +1,14 @@
 import cv2
 import os
+from src.config import SFM_PATH
 
-def split_video_into_frames(video_path, output_folder):
+
+def split_video_into_frames():
+    output_folder = os.path.join(f"{SFM_PATH}/images")
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    cap = cv2.VideoCapture(video_path)
+    cap = cv2.VideoCapture(f"{SFM_PATH}/video.mp4")
     
     frame_count = 0
     
@@ -24,6 +27,4 @@ def split_video_into_frames(video_path, output_folder):
 
 
 if __name__ == "__main__":
-    video_path = "sfm_project"
-    output_folder = "sfm_project/images"
-    split_video_into_frames(video_path, output_folder)
+    split_video_into_frames()
