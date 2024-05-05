@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pandas
+plotly
+scipy
+pycolmap
+enlighten
