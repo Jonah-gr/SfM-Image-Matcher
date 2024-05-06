@@ -5,3 +5,5 @@ plotly
 scipy
 pycolmap
 enlighten
+tqdm
+opencv-python
