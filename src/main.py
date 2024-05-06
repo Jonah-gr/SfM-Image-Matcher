@@ -73,4 +73,4 @@ if __name__ == "__main__":
 
     df = load_image_data()
     visualize(df)
-    get_nearest_images(df)
+    get_nearest_images(df, show=False)
